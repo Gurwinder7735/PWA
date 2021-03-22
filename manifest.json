@@ -1,0 +1,31 @@
+{
+  "dir": "ltr",
+  "lang": "en",
+  "name": "GameIT | Home Page",
+  "short_name": "GameIT | Home P",
+  "scope": "/",
+  "display": "standalone",
+  "start_url": "/test.html",
+  "background_color": "#000000",
+  "theme_color": "black",
+  "description": "",
+  "orientation": "any",
+  "related_applications": [],
+  "prefer_related_applications": "false",
+  "icons": [
+       {
+      "src": "./icon.png",
+      "type": "image/png",
+      "sizes": "144x144",
+           "purpose":"maskable"
+    },
+      {
+      "src": "./icon2.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "url": "https://zamanigames.com/Online",
+  "generated": true,
+  "screenshots": []
+}
