@@ -28,18 +28,18 @@
     
     window.addEventListener('beforeinstallprompt', (e) => {
   // Prevent the mini-infobar from appearing on mobile
-  e.preventDefault();
+//  e.preventDefault();
   // Stash the event so it can be triggered later.
   deferredPrompt = e;
  
 });
     
-    window.addEventListener('load',(e)=>{
-        e.preventDefault();
-        console.log('hii')
-          deferredPrompt.prompt();
-        
-    })
+//    window.addEventListener('load',(e)=>{
+//        e.preventDefault();
+//        console.log('hii')
+//          deferredPrompt.prompt();
+//        
+//    })
     
     let buttonInstall = document.getElementById('install')
     
